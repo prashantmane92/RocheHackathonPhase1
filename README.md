@@ -69,7 +69,7 @@ This HTML page allows you to:
 
 Start the Flask application:
   ```bash
-  python app.py
+  python App.py
   ```
 The application will be running at http://localhost:5000.
 
