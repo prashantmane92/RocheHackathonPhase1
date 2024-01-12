@@ -77,7 +77,7 @@ The application will be running at http://localhost:5000.
 
 To make it easy for developers to interact with the APIs and visualize the responses, we've provided an interactive HTML page. Follow these steps to use it:
 
-1. Open `interactive.html` in your web browser.
+1. Open `page.html` in your web browser.
 2. Follow the on-screen instructions to input parameters and interact with the APIs.
 3. View the output and responses directly in your browser.
 
