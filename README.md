@@ -19,10 +19,10 @@ This project is a simple Flask API that provides two endpoints: one for generati
 Make sure you have the following installed:
 
 - [Python](https://www.python.org/) (version 3.9.18)
-- [pip](https://pip.pypa.io/en/stable/installation/) (Python package installer) (version 23.3.2)
-- [flask] (version 2.2.5)
-- [flask-cors] (version 3.0.10)
-- [flask-testing] (versio 0.8.1)
-- [jupyterlab] (version 4.0.8)
+- [pip](https://anaconda.org/anaconda/pip) (Python package installer) (version 23.3.2)
+- [flask](https://anaconda.org/anaconda/flask) (version 2.2.5)
+- [flask-cors](https://anaconda.org/anaconda/flask-cors) (version 3.0.10)
+- [flask-testing](https://anaconda.org/conda-forge/flask-testing) (versio 0.8.1)
+- [jupyterlab](https://anaconda.org/conda-forge/jupyterlab) (version 4.0.8)
 
 ### Installation
