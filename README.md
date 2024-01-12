@@ -37,7 +37,7 @@ Please refer to requirements.txt
 
    ```bash
    git clone https://github.com/prashantmane92/RocheHackathonPhase1.git
-   cd RocheHackathon
+   cd RocheHackathonPhase1
    ```
 
 2. **Create a Virtual Environment:**
