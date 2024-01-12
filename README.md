@@ -100,11 +100,11 @@ Please note that this HTML page is specifically designed for Windows 10.
 * Example Request:
 * Example Request:
     ```bash
-    curl -X POST -d "int1=2&int2=3&limit=10&str1=foo&str2=bar" http://localhost:5000/api/numbers
+    curl -X POST -d "int1=3&int2=5&limit=20&str1=fizz&str2=buzz" http://localhost:5000/api/numbers
     ```
 * Example Response:
     ```bash
-    "1,foo,bar,foo,5,foobar,7,foo,bar,foo"
+    "1,2,fizz,4,buzz,fizz,7,8,fizz,buzz,11,fizz,13,14,fizzbuzz,16,17,fizz,19,buzz"
     ```
 
 2. **Get Statistics**
@@ -116,7 +116,7 @@ Please note that this HTML page is specifically designed for Windows 10.
     ```
 * Example Response:
   ```
-  "Most used request: {'int1': 2, 'int2': 3, 'limit': 10, 'str1': 'foo', 'str2': 'bar'} with 1 Hits,\nMost recent request: {'int1': 2, 'int2': 3, 'limit': 10, 'str1': 'foo', 'str2': 'bar'} with 1 Hits"
+  "Most used request: {'int1': 3, 'int2': 5, 'limit': 20, 'str1': 'fizz', 'str2': 'buzz'} with 1 Hits,\nMost recent request: {'int1': 3, 'int2': 5, 'limit': 20, 'str1': 'fizz', 'str2': 'buzz'} with 1 Hits"
   ```
 
 ## Testing
