@@ -50,7 +50,7 @@ Please refer to requirements.txt
 3. **Activate the Virtual Environment:**
    Activate the virtual environment:
    ```bash
-    .\venv\Scripts\activate
+    conda activate roche_env
    ```
   Your command prompt or terminal should now show the virtual environment's name.
 
