@@ -55,3 +55,50 @@ Start the Flask application:
   ```
 The application will be running at http://localhost:5000.
 
+### API Endpoints
+1. **Generate Numbers**
+
+* Endpoint: /api/numbers
+* Method: POST
+* Request Body:
+  - int1 (integer): First integer parameter
+  - int2 (integer): Second integer parameter
+  - limit (integer): Limit for number generation
+  - str1 (string): First string parameter
+  - str2 (string): Second string parameter
+* Example Request:
+* Example Request:
+    ```bash
+    curl -X POST -d "int1=2&int2=3&limit=10&str1=foo&str2=bar" http://localhost:5000/api/numbers
+    ```
+* Example Response:
+    ```bash
+    "1,foo,bar,foo,5,foobar,7,foo,bar,foo"
+    ```
+
+2. **Get Statistics**
+* Endpoint: /api/statistics
+* Method: GET
+* Example Request:
+    ```bash
+    curl http://localhost:5000/api/statistics
+    ```
+* Example Response:
+  ```
+  "Most used request: {'int1': 2, 'int2': 3, 'limit': 10, 'str1': 'foo', 'str2': 'bar'} with 1 Hits,\nMost recent request: {'int1': 2, 'int2': 3, 'limit': 10, 'str1': 'foo', 'str2': 'bar'} with 1 Hits"
+  ```
+
+## Testing
+To run unit tests, use the following command:
+  ```bash
+python -m unittest test_server.py
+python -m unittest test_server2.py
+  ```
+
+
+## Project Structure
+
+* app.py: Main application file with Flask routes.
+* test_app.py: Unit tests for the application.
+* requirements.txt: List of Python dependencies.
+* README.md: Project documentation.
