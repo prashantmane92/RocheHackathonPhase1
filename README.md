@@ -11,8 +11,6 @@ This project is a simple Flask API that provides two endpoints: one for generati
   - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
