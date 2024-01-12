@@ -1,0 +1,33 @@
+1. Fizz Buzz REST Server
+Description:
+Fizz Buzz REST Server
+Objective:
+Implement a robust and production-ready Fizz-Buzz REST Server that follows the classic Fizz-Buzz logic. The server should expose a REST API endpoint, with the additional feature of a statistical endpoint.
+
+Fizz-Buzz Logic
+The Fizz-Buzz algorithm involves replacing all multiples of 3 with "fizz", all multiples of 5 with "buzz" and all multiples of 15 with "fizzbuzz". Your output should look like this:
+
+Example: “1,2,fizz,4,buzz,fizz,7,8,fizz,buzz,11,fizz,13,14,fizzbuzz,16,..."
+Requirements
+Your server should adhere to the following specifications:
+
+1. REST API Endpoint
+Accept five parameters: three integers (int1, int2, and limit) and two strings (str1 and str2).
+Return a list of strings containing numbers from 1 to limit.
+Replace multiples of int1 with str1, multiples of int2 with str2, and multiples of both int1 and int2 with str1str2
+2. Production Ready
+Ensure that the server is ready for production use.
+Prioritize clean and maintainable code to facilitate future development by other developers.
+3. Statistics Endpoint:
+Add a statistics endpoint that accepts no parameters.
+Return the parameters corresponding to the most used request.
+Include the number of hits for the most frequent request.
+4. Unit Tests:
+Develop comprehensive unit tests to validate the functionality of your server.
+Submission:
+ Once your server is ready, push the code to a public Git repository.
+Include a README file that describes:
+Special build instructions, if any
+List of third-party libraries used and short description of why/how they were used
+A link to the API documentation.
+Please enter the repository's URL in the designated textbox for evaluation.
